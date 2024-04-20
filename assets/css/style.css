@@ -334,6 +334,12 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  transition: transform 0.3s ease; /* Add smooth transition for the scaling effect */
+
+}
+
+.avatar-box:hover {
+  transform: scale(1.1); /* Increase size by 10% on hover */
 }
 
 .info-content .name {
