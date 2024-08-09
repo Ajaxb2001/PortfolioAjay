@@ -337,12 +337,8 @@ main {
   border-radius: 50%;
   width: 100px; /* Set the initial width of the avatar box */
   height: 100px; /* Set the initial height of the avatar box */
-  transition: transform 0.3s ease; /* Add smooth transition for the scaling and spinning effect */
 }
 
-.avatar-box:hover {
-  transform: scale(1.1) rotate(360deg); /* Increase size by 10% and spin 360 degrees on hover */
-}
 
 .info-content .name {
   color: var(--white-2);
